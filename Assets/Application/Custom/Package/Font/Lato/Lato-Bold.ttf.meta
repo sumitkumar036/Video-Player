@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: 9823cd03773534d4eadacd601f4b9ec2
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Lato
+  fontNames:
+  - Lato
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 328e0241337d94447819a782ce2c21f5, type: 3}
+  - {fileID: 12800000, guid: 37747da273d043e4a9318eabdae78f5e, type: 3}
+  - {fileID: 12800000, guid: 62db9974dd924e948935bd03883ced2e, type: 3}
+  - {fileID: 12800000, guid: a419bcb4108a4f342b67bf7f8a50253e, type: 3}
+  - {fileID: 12800000, guid: 583d8ec52d5589b40b476ba4019072cd, type: 3}
+  - {fileID: 12800000, guid: a2611a177452d32449024dec5fd3d5d7, type: 3}
+  - {fileID: 12800000, guid: 17912377823898744abb8e39b6c5fd95, type: 3}
+  - {fileID: 12800000, guid: d309b2e72fedb7149ba96c0c16d100d4, type: 3}
+  - {fileID: 12800000, guid: 36edc64bb53f76c4e9f896a5300eac29, type: 3}
+  - {fileID: 12800000, guid: 2736313c18ece854b9e1d7b0a46c954a, type: 3}
+  - {fileID: 12800000, guid: a4c6e1ff34d2aa74d8c31ce960d4b244, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
