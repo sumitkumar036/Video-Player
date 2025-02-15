@@ -24,7 +24,7 @@ public class FileExplorer : MonoBehaviour
 
         _path = "";
         foreach (var p in paths) {
-            _path += p;// + "\n";
+            _path += p;
         }
     }
 

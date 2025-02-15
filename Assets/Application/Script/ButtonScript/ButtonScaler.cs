@@ -21,7 +21,7 @@ public class ButtonScaler : MonoBehaviour, IPointerExitHandler, IPointerEnterHan
     public float PreScale;
     public Text txt;
     public Color32 clr;
-    public UnityEvent WhenEnterd, WhenExit;
+    public UnityEvent WhenEntered, WhenExit;
     public ObjectType objectType;
     void Start()
     {
@@ -46,7 +46,7 @@ public class ButtonScaler : MonoBehaviour, IPointerExitHandler, IPointerEnterHan
     public void OnPointerEnter(PointerEventData eventData)
     {
         scaleButton(true);
-        WhenEnterd.Invoke();
+        WhenEntered.Invoke();
     }
 
      //==============================================================================
@@ -62,35 +62,47 @@ public class ButtonScaler : MonoBehaviour, IPointerExitHandler, IPointerEnterHan
 
     //===============================================================================
     /// <summary>
-    /// This function is for scalling button by scaler variable.
+    /// This function is for scaling button by scaler variable.
     /// </summary>
     /// <param name="b">Boolean for Entered / Exit</param>
     public void scaleButton(bool b)
     {
-        if(b)
-        {
-            if(ObjectType._Button == objectType){
-            _button.transform.localScale = new Vector3(scaler, scaler, scaler);
-             if(txt !=null)
-            txt.color = clr;}
+        if(b)  
+            OnEnter();
+       else
+            OnExit();
+    }
 
-            if(ObjectType.Panal == objectType){
+    //When mouse hovered is entered
+    private void OnEnter()
+    {
+        if(ObjectType._Button == objectType)
+        {
+            _button.transform.localScale = new Vector3(scaler, scaler, scaler);
+
+            if(txt !=null)
+                txt.color = clr;
+        }
+
+        if(ObjectType.Panal == objectType)
+        {
             _panal.transform.localScale = new Vector3(scaler, scaler, scaler);
             if(txt !=null)
-                txt.color = clr;}
-
+                txt.color = clr;
         }
-        if(!b)
-        {
-           if(ObjectType._Button == objectType){
+    }
+
+     //When mouse hovered is exited
+    private void OnExit()
+    {
+        if(ObjectType._Button == objectType){
             _button.transform.localScale = new Vector3(PreScale, PreScale, PreScale);
-             if(txt !=null)
-            txt.color = Color.white;}
+            if(txt !=null)
+                txt.color = Color.white;}
 
             if(ObjectType.Panal == objectType){
             _panal.transform.localScale = new Vector3(PreScale, PreScale, PreScale);
             if(txt!=null)
                 txt.color = Color.white;}
-        }
     }
 }
