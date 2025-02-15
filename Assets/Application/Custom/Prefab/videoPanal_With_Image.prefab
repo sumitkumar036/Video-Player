@@ -74,10 +74,11 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 1736b9b9ded99204ab4f568fa51a636a, type: 3}
+  m_Texture: {fileID: 2800000, guid: 5226c3f1de71c8b4fb7550cca5bcadbc, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -145,13 +146,14 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: eb4a64d9f37aa9b43b4f3c833cb661a6, type: 3}
+    m_Font: {fileID: 12800000, guid: aaa6cda0502432947911a5ef60e2178f, type: 3}
     m_FontSize: 18
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 94
@@ -161,7 +163,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'HGHG GGUYGY UYGUY UY GUYT GUY TY8T '
+  m_Text: hxvxhgzxvhg hgfdagyfsdyafsytSRYTryTARTYrTYQRy ti8QWTUYQERT67UY
 --- !u!114 &6622500253543151728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,8 +181,8 @@ MonoBehaviour:
   txt: {fileID: 7975696299119467428}
   clr:
     serializedVersion: 2
-    rgba: 4288066582
-  WhenEnterd:
+    rgba: 4278243327
+  WhenEntered:
     m_PersistentCalls:
       m_Calls: []
   WhenExit:
@@ -249,12 +251,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.80784315}
+  m_Color: {r: 0.4716981, g: 0.33597365, b: 0.33597365, a: 0.28627452}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ee8aa3fd025f7704cbef7630e4571c3d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b648d58990dab64cb4f9c2deaee8d19, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -289,9 +292,9 @@ MonoBehaviour:
     Imageposition: {x: -900, y: 0, z: 0}
     ImagesizeDelta: {x: 100, y: 100}
   - str: 1. => Horizontal
-    Textposition: {x: 5, y: 50, z: 0}
+    Textposition: {x: 5, y: 0, z: 0}
     TextsizeDelta: {x: 450, y: 200}
-    Buttonposition: {x: 0, y: -100, z: 0}
+    Buttonposition: {x: 0, y: -90, z: 0}
     ButtonsizeDelta: {x: 350, y: 150}
     Imageposition: {x: 0, y: 0, z: 0}
     ImagesizeDelta: {x: 470, y: 300}
@@ -357,12 +360,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a73f7bed039573e4d9c7152655bd13e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 81960ad1d9d480e4bb1949f873c654c8, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -390,7 +394,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -400,9 +404,10 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: 68b451cd886bfe2468864a1d9480f0c6,
+      type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: 68b451cd886bfe2468864a1d9480f0c6, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 68b451cd886bfe2468864a1d9480f0c6, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -453,13 +458,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06d6e7f08c6a3c34b9deecfd9057f5d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scaler: 0.8
+  scaler: 0.7
   PreScale: 0
   txt: {fileID: 0}
   clr:
     serializedVersion: 2
     rgba: 4288066582
-  WhenEnterd:
+  WhenEntered:
     m_PersistentCalls:
       m_Calls: []
   WhenExit:
@@ -483,7 +488,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8351269026802895691
 RectTransform:
   m_ObjectHideFlags: 0
@@ -526,6 +531,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
