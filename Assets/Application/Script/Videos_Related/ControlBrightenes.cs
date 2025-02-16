@@ -12,7 +12,6 @@ public class ControlBrightenes : MonoBehaviour
     public              Slider              volumeSlider;
     [Header("<-----playback speed slider, input Field----->")]
     public              Slider              playBackSpeed;
-    public              InputField          playbackSpeed_field;
                         VideoPlayer         videoPlayer;
 
     [Header("<-----video volume control------------------->")]
@@ -40,9 +39,7 @@ public class ControlBrightenes : MonoBehaviour
 
         if(playpause != null)
             videoPlayer = playpause.videoPlayer;
-            
-        playbackSpeed_field.onValueChanged.AddListener(delegate{
-          _videoSpeedField();});
+    
 
         dropdown.onValueChanged.AddListener(delegate{
             setAspectRatio(dropdown);});
@@ -65,7 +62,7 @@ public class ControlBrightenes : MonoBehaviour
     public void videoSpeed()
     {
         videoPlayer.playbackSpeed = playBackSpeed.value;
-        playbackSpeed_field.text = playBackSpeed.value.ToString("0.00");
+       // playbackSpeed_field.text = playBackSpeed.value.ToString("0.00");
     }
      //==========================================================================
     /// <summary>
@@ -74,7 +71,7 @@ public class ControlBrightenes : MonoBehaviour
 
     public void _videoSpeedField()
     {
-        playBackSpeed.value = float.Parse(playbackSpeed_field.text);
+       // playBackSpeed.value = float.Parse(playbackSpeed_field.text);
         videoPlayer.playbackSpeed = playBackSpeed.value;
     }
 
